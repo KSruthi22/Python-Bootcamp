@@ -1,0 +1,24 @@
+#dynamic list input
+#space separated input:-
+dy_in=list(map(int,input("give integer values").split(" ")))
+print(*dy_in)
+dy_in1=list(map(str,input("give string values").split(" ")))
+print(*dy_in1)
+#only append,concatenate and pop works in string lists
+#append,pop,sort,length
+print("enter 1 to append any value\n enter 2 to pop value\n enter 3 to sort the values\n enter 4 to find length")
+list1=list(map(int,input().split(" ")))
+choice=list1[0]
+if choice ==1:
+    list1.append(33)
+    print(list1)
+elif choice==2:
+    list1.pop()
+    print(list1)
+elif choice==3:
+    list1.sort()  
+    print(list1)
+elif choice==4:
+    print(len(list1))                  
+    
+    

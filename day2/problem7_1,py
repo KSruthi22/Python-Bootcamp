@@ -1,0 +1,5 @@
+#7.1:-#you are given with a comma separated natural numbers 1 to 10.print even numbers
+list1=list(map(int,input("enter comma separated numbers").split(",")))
+for i in range(1,len(list1)):
+    if list1[i]%2==0:
+        print(list1[i])

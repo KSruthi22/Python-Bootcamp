@@ -1,0 +1,8 @@
+strng1=list(map(str,input("enter strings").split(" ")))
+#METHOD1:-
+for i in range(len(strng1)):
+    print(strng1[i],end=" ")
+print()
+#METHOD 2:-
+for i in strng1:
+    print(i,end=" ")
